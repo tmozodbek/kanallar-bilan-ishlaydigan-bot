@@ -56,8 +56,6 @@ async def handle_channel_post(message: types.Message):
         # Handle unsupported content type
         await handle_unsupported_content(message)
 
-
-
 # Define a function to handle text messages
 async def handle_text_message(message: types.Message):
     # Forward the text message to the bot
