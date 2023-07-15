@@ -1,5 +1,7 @@
 import logging
+from config import API_TOKEN
 from aiogram import Bot, Dispatcher, types
+
 from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.utils import executor
 
@@ -7,7 +9,7 @@ from aiogram.utils import executor
 logging.basicConfig(level=logging.INFO)
 
 # Create a bot instance
-bot = Bot(token='6299626633:AAEKYLHAIutcOfdDTrsIumET6RmKSpUubTg')
+bot = Bot(token=API_TOKEN)
 
 # Create a dispatcher
 storage = MemoryStorage()
