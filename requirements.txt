@@ -1,2 +1,2 @@
-aiogram = "*"
+aiogram == "*"
 environs==9.5.0
